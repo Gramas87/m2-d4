@@ -14,7 +14,7 @@ function createPlayer() {
 // cant understand why it wont work
   function createTeams(){
     
-    for (let i = 0; index < teamNumbers.value; i++) {
+    for (let i = 0; i < teamNumbers.value; i++) {
       team=document.createElement("ul")
       }
       document.getElementsByTagName("body").appendChild(team)
