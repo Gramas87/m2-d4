@@ -15,7 +15,7 @@ function createPlayer() {
   function createTeams(){
     
     for (let i = 0; i < teamNumbers.value; i++) {
-      team=document.createElement("ul")
+      team=document[i].createElement("ul")
       }
       document.getElementsByTagName("body").appendChild(team)
     
